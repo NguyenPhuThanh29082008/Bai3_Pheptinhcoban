@@ -29,13 +29,13 @@ int main()
     tonghieutichthuong = a + b - a * b / a;
 
     cout << "Cong Thuc Phep Tong Binh Thuong: " << a << "+" << b << "=" << tong << endl;
-    cout << "Cong Thuc Phep Tong Binh Duong : " << a << "+" << b << "=" << tinhtong(a,b) << endl;
+    cout << "Cong Thuc Phep Tong PRO : " << a << "+" << b << "=" << tinhtong(a,b) << endl;
     cout << "Cong Thuc Phep Hieu Binh Thuong : " << a << "-" << b << "=" << hieu << endl;
-    cout << "Cong Thuc Phep Hieu Dang Cap : " << a << "-" << b << "=" << tinhhieu(a,b) << endl;
+    cout << "Cong Thuc Phep Hieu PRO : " << a << "-" << b << "=" << tinhhieu(a,b) << endl;
     cout << "Cong Thuc Phep Nhan Binh Thuong : " << a << "*" << b << "=" << tich << endl;
     cout << "Cong Thuc Phep Nhan PRO : " << a << "*" << b << "=" << tinhtich(a,b) << endl;
     cout << "Cong Thuc Phep Thuong Binh Thuong : " << a << ":" << b << "=" << thuong << endl;
-    cout << "Cong Thuc Phep Thuong VIP : " << a << ":" << b << "=" << tinhthuong(a,b) << endl;
+    cout << "Cong Thuc Phep Thuong PRO : " << a << ":" << b << "=" << tinhthuong(a,b) << endl;
     cout << "Cong Thuc Tat ca phep : " << a << "+" << b << "-" << a << "*" << b << ":" << a << "=" << tonghieutichthuong << endl;
 
     
